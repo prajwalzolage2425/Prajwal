@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">My<span>Portfolio</span></a>
+            
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Hello, I'm <span>Prajwal Zolage</span></h1>
+            <div class="typing-text"></div>
+            <p>I'm a passionate developer specializing in building exceptional web apps. Currently, I'm focused on building accessible, productivity boosting tools.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="profile_photo.jpg" alt="Developer Image">
+                </div>
+                
+                <div class="about-text">
+                    <h3>co-Founder of Syntax Syndicate</h3>
+                    <p>Hello! I'm Prajwal, a passionate developer with a focus on creating interactive, responsive, and user-friendly web applications.</p>
+                    <p>With a strong foundation in Python and database management, I enjoy turning complex problems into simple, beautiful designs.</p>
+                    
+                    <ul class="info-list">
+                        <li><strong>Name:</strong> <span>Prajwal Zolage</span></li>
+                        <li><strong>Email:</strong> <span>prajwalzolage55@gmail.com</span></li>
+                        <li><strong>Age:</strong> <span>19 years</span></li>
+                        <li><strong>From:</strong> <span>Navi Mumbai, India</span></li>
+                    </ul>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-item">
+                    <h3><i class="fab fa-html5"></i> HTML/CSS</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="80%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <h3><i class="fab fa-python"></i> Python</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="55%"></div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="skill-item">
+                    <h3><i class="fas fa-photo-video"></i> Video Editing</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="60%"></div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="skill-item">
+                    <h3><i class="fab fa-git-alt"></i> Git</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Image Recognition Ai</h3>
+                        <p>An AI-powered image recognition tool that classifies and tags images with high accuracy.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/prajwalzolage2425/Image_Recognition_ML.git"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A drag-and-drop task management application with user authentication and real-time updates.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://engineering-god.onrender.com/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Fitness Tracker</h3>
+                        <p>A mobile-friendly fitness application that tracks workouts and provides personalized recommendations.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>GraphQL</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education & Experience </h2>
+            </div>
+        
+
+           
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - present</div>
+                        <h3>B.E.(AI&DS) student at TEC, Nerul</h3>
+                        <p>TEC, Nerul</p>
+                        <p>Persuing engineering in AI&DS from TEC, Nerul</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 - present</div>
+                        <h3>Member</h3>
+                        <p>Gen Ai Club</p>
+                        <p>In Terna Engineering College, Nerul</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 - present</div>
+                        <h3>Member</h3>
+                        <p>Syntax Syndicate</p>
+                        <p>Making the community for the like minded people</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/prajwalzolage2425/My-Portfolio"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/prajwal-zolage-82ab10347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/prajwal__0506?igsh=aHo4eWUzejd6dmhj"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:prajwalzolage2425@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            
+            <p class="copyright">© 2025 Prajwal Zolage. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Wait for DOM to fully load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Header scroll effect
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Mobile menu toggle
+            const menuBtn = document.querySelector('.menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            
+            menuBtn.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                menuBtn.querySelector('i').classList.toggle('fa-bars');
+                menuBtn.querySelector('i').classList.toggle('fa-times');
+            });
+            
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    menuBtn.querySelector('i').classList.add('fa-bars');
+                    menuBtn.querySelector('i').classList.remove('fa-times');
+                });
+            });
+            
+            // Typing animation-------------------------------------------------------------
+            const typingText = document.querySelector('.typing-text');
+            const texts = ['Git Workshop', 'Full Stack Web Developer', 'Graphics Designer', 'Problem Solver'];
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let typingDelay = 100;
+            let erasingDelay = 50;
+            let newTextDelay = 2000;
+            
+            function type() {
+                if (charIndex < texts[textIndex].length && !isDeleting) {
+                    typingText.textContent += texts[textIndex].charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, typingDelay);
+                } else if (charIndex > 0 && isDeleting) {
+                    typingText.textContent = texts[textIndex].substring(0, charIndex - 1);
+                    charIndex--;
+                    setTimeout(type, erasingDelay);
+                } else {
+                    isDeleting = !isDeleting;
+                    if (!isDeleting) {
+                        textIndex++;
+                        if (textIndex >= texts.length) textIndex = 0;
+                    }
+                    setTimeout(type, newTextDelay);
+                }
+            }
+            
+            // Start typing animation after a brief delay
+            setTimeout(type, 1000);
+            
+            // Animate elements on scroll
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.section-title, .about-content, .skill-item, .project-card, .timeline-item');
+                
+                elements.forEach(element => {
+                    if (isElementInViewport(element)) {
+                        element.classList.add('visible');
+                    }
+                });
+            }
+            
+            function isElementInViewport(el) {
+                const rect = el.getBoundingClientRect();
+                return (
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.9 &&
+                    rect.bottom >= 0
+                );
+            }
+            
+            window.addEventListener('scroll', animateOnScroll);
+            // Initial check
+            animateOnScroll();
+            
+            // Animate skill bars on scroll
+            const skillBars = document.querySelectorAll('.progress-bar');
+            
+            function animateSkillBars() {
+                skillBars.forEach(bar => {
+                    const width = bar.getAttribute('data-width');
+                    if (isElementInViewport(bar)) {
+                        bar.style.width = width;
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', animateSkillBars);
+            // Initial check
+            animateSkillBars();
+        });
+    </script>
+</body>
+</html>
